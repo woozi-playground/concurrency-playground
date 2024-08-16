@@ -1,5 +1,6 @@
 rootProject.name = 'concurrency-playground'
 
 include(
-        "mutex"
+        "mutex",
+        "semaphore",
 )

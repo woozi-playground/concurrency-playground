@@ -1,12 +1,10 @@
 package org.woozi.pratice.monitor;
 
-public class SharedData {
+public class MutualExclusion {
     private int sharedValue = 0;
 
-    public void increment() {
-        synchronized (this) {
-            this.sharedValue = sharedValue + 1;
-        }
+    public synchronized void increment() {
+        this.sharedValue = sharedValue + 1;
     }
 
     public void decrement() {

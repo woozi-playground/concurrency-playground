@@ -1,10 +1,10 @@
-package org.woozi.pratice.monitor;
+package org.woozi.pratice.spinlock;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MonitorApplicationTests {
+class SpinlockApplicationTests {
 
     @Test
     void contextLoads() {

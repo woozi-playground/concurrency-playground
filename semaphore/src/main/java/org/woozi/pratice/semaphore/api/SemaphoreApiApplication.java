@@ -1,8 +1,5 @@
 package org.woozi.pratice.semaphore.api;
 
-import org.woozi.pratice.semaphore.SharedData;
-import org.woozi.pratice.semaphore.counting.CountingSemaphore;
-
 import java.util.concurrent.Semaphore;
 
 public class SemaphoreApiApplication {
